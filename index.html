@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="assets/favicon.ico" rel="shortcut icon" />
+  <link rel="stylesheet" href="./css/owfont-regular.css" />
+  <link rel="stylesheet" href="./css/style.css" />
+  <title>momentum</title>
+</head>
+<body>
+  <header class="header">
+    <div class="player">
+      <audio></audio>
+      <div class="player-controls">
+        <button class="play-prev player-icon"></button>
+        <button class="play player-icon"></button>
+        <button class="play-next player-icon"></button>
+      </div>
+      <ul class="play-list">
+        <li class="play-item">Aqua Caelestis</li>
+        <li class="play-item">River Flows In You</li>
+        <li class="play-item">Summer Wind</li>
+        <li class="play-item">Ennio Morricone</li>
+      </ul>
+    </div>
+    <div class="weather">
+      <input type="text" class="city" />
+      <i class="weather-icon owf"></i>
+      <div class="weather-error"></div>
+      <div class="description-container">
+        <span class="temperature"></span>
+        <span class="weather-description"></span>
+      </div>
+      <div class="wind"> </div>
+      <div class="humidity"></div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="slider-icons">
+      <button class="slide-prev slider-icon"></button>
+      <button class="slide-next slider-icon"></button>
+    </div>
+    <time class="time"></time>
+    <date class="date"></date>
+    <div class="greeting-container">
+      <span class="greeting"></span>
+      <input type="text" class="name" />
+    </div>
+  </main>
+  <footer class="footer">
+    <button class="change-quote"></button>
+    <div>
+      <div class="quote"></div>
+      <div class="author"></div>
+    </div>
+    <div class="contacts">
+      <div class="rs">
+            <a href="https://rs.school/js-stage0/"><img src="./img/logo_rs_text.svg" width="60" 
+                 height="60" alt="rs_school"></a>
+        </div>
+        <div class="git">
+            <a href="https://github.com/ArtemMyzrov"><img src="./img/github-svgrepo-com.svg" width="40" 
+                height="40" alt="github"></a>
+        </div>
+        <p> Made in 2022</p>
+    
+    </div>
+  </footer>
+  <script type="module"  src="./js/time.js"></script>
+  <script type="module"  src="./js/wallpaper.js" ></script>
+  <script type="module"  src="./js/weather widget.js" ></script>
+  <script type="module"  src="./js/quote.js" ></script>
+  <script type="module"  src="./js/player.js" ></script>
+</body>
+</html>
